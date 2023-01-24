@@ -1,68 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="es" class="size-m">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>CREATE</title>
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+<body>
+  <header class="header">
+    <section class="header__section">
+      <div class="header__img"><a class="header__img__link" href="index.html"><img class="header__img__img"
+            src="./assets/images/logo.png" alt="LayoutDeEjemplo Logo"></a>
+      </div>
+      <h1 class="header_title">LayoutDeEjemplo</h1>
+    </section>
+    <nav class="header__menu">
+      <ul class="header__menu__nav">
+        <li class="header__menu__item"><a class="header__menu__link link_hover" href="">Link1</a></li>
+        <li class="header__menu__item"><a class="header__menu__link link_hover" href="">Link2</a></li>
+        <li class="header__menu__item"><a class="header__menu__link link_hover" href="">Link3</a></li>
+        <li class="header__menu__item"><a class="header__menu__link link_hover" href="">Link4</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="main__section">
+      <article class="main__article">
+        <h2 class="main__article__title">Lorem ipsum dolor sit amet</h2>
+        <p class="main__article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias, rem
+          temporibus
+          minima veritatis
+          assumenda, ipsum aliquid tempora impedit nam labore laudantium, delectus. Quae iste perspiciatis
+          voluptate maxime fuga</p>
+      </article>
+      <article class="main__article_2">
+        <h2 class="main__article_2__title">Lorem ipsum dolor sit amet</h2>
+        <p class="main__article_2__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias,
+          rem
+          temporibus minima veritatis
+          assumenda, ipsum aliquid tempora impedit nam labore laudantium, delectus. Quae iste perspiciatis
+          voluptate maxime fuga</p>
+      </article>
+      <article class="main__article">
+        <h2 class="main__article__title">Lorem ipsum dolor sit amet</h2>
+        <p class="main__article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias, rem
+          temporibus
+          minima veritatis
+          assumenda, ipsum aliquid tempora impedit nam labore laudantium, delectus. Quae iste perspiciatis
+          voluptate maxime fuga</p>
+      </article>
+    </section>
+    <aside class="main__aside">
+      <section class="main__aside__section"></section>
+      <section class="main__aside__section"></section>
+    </aside>
+  </main>
+  <footer class="footer">
+    <nav class="footer__menu_1">
+      <ul class="footer__menu_1__list">
+        <li class="footer__menu_1__item">
+          <a class="footer__menu_1__link " href="">Link1</a>
+        </li>
+        <li class="footer__menu_1__item">
+          <a class="footer__menu_1__link " href="">Link2</a>
+        </li>
+        <li class="footer__menu_1__item">
+          <a class="footer__menu_1__link " href="">Link3</a>
+        </li>
+        <li class="footer__menu_1__item">
+          <a class="footer__menu_1__link " href="">Link4</a>
+        </li>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
-</html>
+      </ul>
+    </nav>
+    <nav class="footer__menu_2">
+      <ul class="footer__menu_2__list">
+        <li class="footer__menu_2__item"><a class="footer__menu_2__link " href="">Fb</a></li>
+        <li class="footer__menu_2__item"><a class="footer__menu_2__link " href="">Tw</a></li>
+        <li class="footer__menu_2__item"><a class="footer__menu_2__link " href="">G+</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
